@@ -39,12 +39,16 @@ Rather than just reproducing the paper, I built a second pipeline (`upgraded.py`
 
 ```
 .
-├── main.py           # Argparse CLI orchestrator — runs either pipeline, exports metrics
-├── baseline.py        # Classical CV implementation (Baig et al., 2023)
-├── upgraded.py         # Hybrid AI/CV pipeline (MOG2 + MobileNetV2 + Optical Flow)
-├── utils.py            # Radial distance math (shared by baseline)
-├── requirements.txt    # numpy, opencv-python, torch, torchvision, Pillow
-└── benchmark_results.csv  # Auto-generated frame-by-frame metrics
+├── .gitattributes
+├── README.md
+├── baseline.py            # Classical CV implementation (Baig et al., 2023)
+├── baseline_output.mp4     # Generated video output from baseline pipeline
+├── benchmark_results.csv  # Auto-generated frame-by-frame metrics
+├── main.py                # Argparse CLI orchestrator — runs either pipeline, exports metrics
+├── requirements.txt       # numpy, opencv-python, torch, torchvision, Pillow
+├── upgraded.py            # Hybrid AI/CV pipeline (MOG2 + MobileNetV2 + Optical Flow)
+├── upgraded_output.mp4    # Generated video output from upgraded hybrid pipeline
+└── utils.py               # Radial distance math (shared by baseline)
 ```
 
 ---
