@@ -71,7 +71,7 @@ Rather than just reproducing the paper, I built a second pipeline (`upgraded.py`
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/hybrid-fire-detection.git
+git clone https://github.com/Abdullah-Tariq-10/AI-CV-Hybrid-Fire-Detection.git
 cd hybrid-fire-detection
 
 # (Recommended) Create a virtual environment
